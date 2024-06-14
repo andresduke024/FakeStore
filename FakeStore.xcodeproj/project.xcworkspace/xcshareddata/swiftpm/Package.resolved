@@ -1,0 +1,33 @@
+{
+  "originHash" : "69c111f680cf2ad5097ce46ce2898a9abae2424bb9a397d9cbd5069ab83acaca",
+  "pins" : [
+    {
+      "identity" : "fakestoreauthentication",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andresduke024/FakeStoreAuthentication.git",
+      "state" : {
+        "revision" : "088b1d99893f8566e9bb592b317583632b15851d",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "fakestorecommons",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andresduke024/FakeStoreCommons",
+      "state" : {
+        "revision" : "f3365f7e5f4ce9f5829a67668635109066258cee",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swift-dependency-injector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andresduke024/swift-dependency-injector",
+      "state" : {
+        "revision" : "892b618230e4b2c878ac851bf32779c4664d5437",
+        "version" : "1.4.1"
+      }
+    }
+  ],
+  "version" : 3
+}

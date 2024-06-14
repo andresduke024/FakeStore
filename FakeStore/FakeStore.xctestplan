@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "7F276C02-79E1-4170-A3AE-8F1800E39305",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:FakeStore.xcodeproj",
+          "identifier" : "A3F8647D2C07CED2004D81A2",
+          "name" : "FakeStore"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FakeStore.xcodeproj",
+      "identifier" : "A3F8647D2C07CED2004D81A2",
+      "name" : "FakeStore"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FakeStore.xcodeproj",
+        "identifier" : "A3F8648D2C07CED3004D81A2",
+        "name" : "FakeStoreTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FakeStore.xcodeproj",
+        "identifier" : "A3F864972C07CED4004D81A2",
+        "name" : "FakeStoreUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
