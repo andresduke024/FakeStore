@@ -41,7 +41,7 @@ struct HomeView: View {
             Button {
                 Task {
                     await logOutUseCase?.invoke()
-                    router.replace(newDestination: .home)
+                    router.replace(newDestination: .authentication)
                 }
             } label: {
                 Text("Log out")
